@@ -6,16 +6,16 @@ body {
   margin: 0 0;
   padding:0 0;
   background-image:url("photos/triangle.jpg");
-  background-color: rgba(196, 88, 88, 0.5);
+  background-color: rgba(219, 212, 212, 0.5);
   background-blend-mode: lighten;
   background-size: cover;
-  height:1000px;
+  height:1800px;
   width:100%;
   box-sizing: border-box;
   margin: 0 auto;
 }
 .header{
-    background-color: blueviolet;
+    background-color: rgb(255, 255, 255);
     height:90px;
     position:fixed;
     top: 0;
@@ -89,6 +89,7 @@ span.midashi{
 .section-title{
   border-bottom: 2px solid black;
   line-height:3;
+  font-style: italic;
 
 }
 .section-title2{
@@ -97,17 +98,22 @@ span.midashi{
 .contents-item{
   letter-spacing: 5px;
   line-height: 3;
-  
+  padding-left: 30px;
 }
 .activity{
   width:50%;
   float:left;
-  height:650px;
+  height:620px;
 
 }
 .space{
   padding-left: 20px;
   
+}
+
+.activity-photos{
+  padding-right: 25px;
+
 }
 
 .activity-photos img{
@@ -125,10 +131,11 @@ span.midashi{
 }
 
 .photo2{
-  clear: both;
+
 }
 
 .photo2 img{
+  margin-top: 200px;
   
 
 }
@@ -157,12 +164,15 @@ input, textarea{
 
 input{
   padding:10px;
+
 }
 textarea{
-  padding:30px;
+  padding:10px;
+  height:100px;
+
 }
 .contact-submit{
-  padding:20px;
   background-color:#dee7ec;
   color:black;
+  width:25%;
 }
