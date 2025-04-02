@@ -1,0 +1,168 @@
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0 0;
+  padding:0 0;
+  background-image:url("photos/トライアングル.jpg");
+  background-color: rgba(255,255,255,0.5);
+  background-blend-mode: lighten;
+  background-size: cover;
+  height:1000px;
+  width:100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.header{
+    background-color: blueviolet;
+    height:90px;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom:0;
+}
+
+li {
+  list-style: none;
+}
+.header-logo{
+    float:left;
+    font-size:36px;
+    padding:20px 40px;
+}
+
+.header-list{
+  float:right;
+  width:50%;
+}
+.header-list li{
+  float:left;
+  font-size:15px;
+  padding: 20px 20px;
+  margin-left: 20px;
+}
+
+.main {
+  padding-top:100px;
+  margin-top:0;
+  margin: 0 auto;
+  width:100%;
+  border: none;
+  
+}
+
+.copy-container h1 {
+  font-size: 80px;
+  padding-left:350px;
+  height:300px;
+  margin-bottom: 0;
+
+}
+
+.copy-container h2 {
+  margin-top: 0;
+  font-size: 45px;
+  text-align: center;
+  height:150px;
+  margin-bottom: 0;
+
+}
+
+span.midashi{
+    display: block;
+    padding-top:15px;
+    padding-left:70px;
+
+}
+
+.contents{
+  float:right;
+  width:50%;
+  height:470px;
+  margin-top:0;
+  font-style: italic;
+
+}
+
+.section-title{
+  border-bottom: 2px solid black;
+  line-height:3;
+
+}
+.section-title2{
+  color:red;
+}
+.contents-item{
+  letter-spacing: 5px;
+  line-height: 3;
+  
+}
+.activity{
+  width:50%;
+  float:left;
+  height:650px;
+
+}
+.space{
+  padding-left: 20px;
+  
+}
+
+.activity-photos img{
+  width:50%;
+  max-height: 300px; /* 親要素の高さ以下に制限 */
+  object-fit: contain;
+}
+
+.photo1 {
+
+}
+
+.photo1 img{
+  float:right;
+}
+
+.photo2{
+  clear: both;
+}
+
+.photo2 img{
+  
+
+}
+
+
+.contact-form{
+  height:300px;
+  clear: both;
+  width:40%;
+  margin:0 auto;
+  text-align: center;
+}
+.section-title3{
+  text-decoration-line: underline;
+  text-decoration-skip-ink: none;
+  text-underline-offset: 15px;
+
+}
+input, textarea{
+  width:400px;
+  margin-top:10px;
+  margin-bottom:30px;
+  font-size:18px;
+  border:1px solid #dee7ec;
+}
+
+input{
+  padding:10px;
+}
+textarea{
+  padding:30px;
+}
+.contact-submit{
+  padding:20px;
+  background-color:#dee7ec;
+  color:black;
+}
